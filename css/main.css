@@ -259,7 +259,24 @@ img {
 
 /* RESPONSIVE */
 @media (max-width: 1200px) {
-    site
+    .header-list{
+        display: none;
+    }
+    .site-hero{
+        padding-bottom: 120px;
+    }
+    .site-hero-img{
+        display: none;
+    }
+    .registration-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .registration-btn{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
 }
 @media (max-width: 992px) {
    
